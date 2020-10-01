@@ -52,7 +52,6 @@ body{
 nav{
 	position: relative;
 	width: 100%;
-	height: 60px;
 	background-color: #fff;
 	box-shadow: -1px -7px 20px 0px #888;
 }
@@ -106,12 +105,6 @@ section#box-profile{
 	border-radius: 300px;
 }
 .description{
-	position: relative;
-	width: 400px;
-	display: inline-block;
-	float: left;
-	top: 50px;
-	margin-left: 30px;
 	font-family: 'helvetica',sans-serif;
 	border-right: 1px solid #efefef; 
 }
@@ -127,12 +120,7 @@ section#box-profile{
 	margin-top: 40px;
 }
 .information{
-	position: relative;
-	display: inline-block;
-	float: left;
 	font-family: 'helvetica', sans-serif;
-	top: 45px;
-	margin-left: 30px;
 }
 .information .data{
 	display: block;
@@ -141,7 +129,6 @@ section#box-profile{
 }
 .information p.field{
 	font-weight: 600;
-	width: 150px;
 	color: #333;
 }
 .information .data p{

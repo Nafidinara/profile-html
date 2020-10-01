@@ -3,49 +3,68 @@
 <head>
 	<title>menu profile</title>
 	<meta name="viewport" content="width=device- width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- Local CSS -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<nav>
-	<ul>
-		<li><a href="#">Beranda</a></li>
-		<li><a href="#">Produk</a></li>
-		<li><a href="#">Galeri</a></li>
-		<li><a href="#">Berita</a></li>
-		<li><a href="#">Inventory</a></li>
-	</ul>
-</nav>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a class="navbar-brand" href="#">Profile</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav ml-auto">
+				<a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="#">About</a>
+				<a class="nav-link" href="#">Contact</a>
+			</div>
+			</div>
+		</div>
+	</nav>
+	<!-- Navbar END -->
 
 <section id="box-profile">
-	<div class="img-profile">
-		<div class="photo" style="background-image:url(laela.jpg);"></div>
-	</div>
-	<div class="description">
-		<h1>Laela Nur Azizah</h1>
-		<p>Front End Designer</p>
-		<a href="#" class="button bg-green">Contact</a>
-		<a href="#" class="button border-blue">Resume</a>
-	</div>
-	<div class="information">
-		<div class="data">
-			<p class="field">Pembelajaran</p>
-			<p class="text-gray">Paruh Waktu</p>
-		</div>
-		<div class="data">
-			<p class="field">Usia</p>
-			<p class="text-gray">15 tahun</p>
-		</div>
-		<div class="data">
-			<p class="field">Tempat Sekolah</p>
-			<p class="text-gray">SMA 1 Wadaslintang</p>
-		</div>
-		<div class="data">
-			<p class="field">Waktu Belajar</p>
-			<p class="text-gray">3 Tahun</p>
-		</div>
-		<div class="data">
-			<p class="field">Alamat Email</p>
-			<p class="text-gray">Laelaazizah2527@gmail.com</p>
+	<div class="container">
+		<div class="row d-flex">
+			<div class="col-lg-3">
+				<div class="img-profile">
+					<div class="photo" style="background-image:url(laela.jpg);"></div>
+				</div>
+			</div>
+			<div class="col-lg-9 d-flex mt-4 mt-lg-0">
+				<div class="description col-lg-6 pt-3">
+					<h1>Laela Nur Azizah</h1>
+					<p>Front End Designer</p>
+					<a href="#" class="button bg-green">Contact</a>
+					<a href="#" class="button border-blue">Resume</a>
+				</div>
+				<div class="information col-lg-6 pt-3">
+					<div class="data w-100">
+						<p class="field">Pembelajaran</p>
+						<p class="text-gray">Paruh Waktu</p>
+					</div>
+					<div class="data w-100">
+						<p class="field">Usia</p>
+						<p class="text-gray">15 tahun</p>
+					</div>
+					<div class="data w-100">
+						<p class="field">Tempat Sekolah</p>
+						<p class="text-gray">SMA 1 Wadaslintang</p>
+					</div>
+					<div class="data w-100">
+						<p class="field">Waktu Belajar</p>
+						<p class="text-gray">3 Tahun</p>
+					</div>
+					<div class="data w-100">
+						<p class="field">Alamat Email</p>
+						<p class="text-gray">Laelaazizah2527@gmail.com</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -90,5 +109,11 @@
 	</div>
 	</form>
 </section>
+
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
