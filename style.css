@@ -5,21 +5,33 @@
 body{
 	background-color: #f7f9fc;
 }
+.btn {
+	cursor: pointer;
+}
 .bg-green{
 	background-color: #52dc90;
 	color: #fff;
-	box-shadow: 0 0 7px 0px #52dc90;
 	border:1px solid #52dc90;
+}
+.bg-green:hover {
+	box-shadow: 0 0 7px 0px #52dc90;
 }
 .bg-blue{
 	background-color: #55a8fd;
 	color: #fff;
-	box-shadow: 0 0 7px 0px #55a8fd;
 	border:1px solid #55a8fd;
+	transition: all .4s ease-in-out;
+}
+.bg-blue:hover {
+	box-shadow: 0 0 7px 0px #55a8fd;
 }
 .border-blue{
 	color: #55a8fd;
 	border:1px solid #55a8fd;
+}
+.border-blue:hover {
+	background-color: #55a8fd;
+	color: #fff;
 }
 .text-black{
 	color: #333;
@@ -34,6 +46,8 @@ body{
 	display: inline-block;
 	margin-right: 15px;
 	border-radius: 3px;
+	cursor: pointer;
+	transition: all .4s ease-in-out;
 }
 nav{
 	position: relative;
