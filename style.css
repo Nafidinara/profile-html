@@ -24,6 +24,7 @@ body{
 }
 .bg-blue:hover {
 	box-shadow: 0 0 7px 0px #55a8fd;
+	color: #fff;
 }
 .border-blue{
 	color: #55a8fd;
@@ -48,6 +49,11 @@ body{
 	border-radius: 3px;
 	cursor: pointer;
 	transition: all .4s ease-in-out;
+	text-decoration: none;
+}
+.button:hover {
+	text-decoration: none;
+	color: #fff;
 }
 nav{
 	position: relative;
