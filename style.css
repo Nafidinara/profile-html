@@ -76,7 +76,7 @@ nav ul li{
 nav ul li a{
 	text-decoration: none;
 	color: #888;
-	font-family: 'helvetica',sans-serif;
+	font-family: 'Nunito Sans',sans-serif;
 	font-size: 15px;
 }
 nav ul li a:hover{
@@ -111,7 +111,7 @@ section#box-profile{
 	border-radius: 300px;
 }
 .description{
-	font-family: 'helvetica',sans-serif;
+	font-family: 'Nunito Sans',sans-serif;
 	border-right: 1px solid #efefef; 
 }
 .description h1{
@@ -126,7 +126,7 @@ section#box-profile{
 	margin-top: 40px;
 }
 .information{
-	font-family: 'helvetica', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
 }
 .information .data{
 	display: block;
@@ -158,13 +158,13 @@ section#input-form{
 	margin-bottom: 15px;
 }
 label{
-	font-family: 'helvetica',sans-serif;
+	font-family: 'Nunito Sans',sans-serif;
 	font-size: 16px;
 	color: #333;
 	font-weight: 600; 
 }
 input{
-	font-family: 'helvetica',sans-serif;
+	font-family: 'Nunito Sans',sans-serif;
 	padding: 10px 20px 10px 20px;
 	outline: none;
 	border-radius: 3px;
@@ -173,7 +173,7 @@ input{
 	margin-bottom: 5px;
 	font-size: 16px;
 }
-@media(min-width: 321px) and (max-width: 425px;){
+@media(min-width: 321px) and (max-width: 425px){
 	 section#box-profile{
 	 	width: 90%;
 	 	height: 630px;
